@@ -1,5 +1,7 @@
 # Investigation and Design of Swarm Intelligence Methodologies applying Machine Learning for Terrain Mapping
 
+[Report](https://github.com/prajwaldp/mcswarm/blob/master/report.pdf)
+
 ## Abstract
 
 Our goal in this project is to build a system of robots that can autonomously
@@ -20,14 +22,6 @@ gym.
 
 ## Implementation
 
-### Hardware
-
-The arduino code for the 3 robots are in the `arduino` folder.
-
-- **robot_1**: The one with the Lead Acid Battery and motor shield
-- **robot_2**: The one which is painted black
-- **robot_3**: The tractor
-
 ### Software
 
 #### Machine Learning
@@ -41,22 +35,3 @@ The arduino code for the 3 robots are in the `arduino` folder.
 
 - [ARGoS Simulator](http://www.argos-sim.info/index.php)
 - [How it works](http://www.argos-sim.info/user_manual.php#_using_argos_basics)
-
-
-## Things to remember for external viva day
-
-### Hardware
-
-- [ ] `robot_2` - fix those ultrasonic sensors to the base (don't make it ugly)
-- [ ] Fix the delay in recognising obstacles in front
-
-### Software
-
-- [ ] Add kurento/flask app to this repository
-- [ ] How do we reference ORB-SLAM
-
-### Others
-
-- [ ] Hall Tickets
-- [ ] Project Reports
-
